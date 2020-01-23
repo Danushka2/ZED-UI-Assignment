@@ -91,3 +91,15 @@
     letter-spacing: 0.3px;
     color: #29323c;
 }
+
+.service-container .card-title{
+    font-family: montserrat-bold;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+}
+
+.service-container .card-text{
+    font-family: OpenSans-Light;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+}

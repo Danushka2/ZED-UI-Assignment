@@ -72,18 +72,22 @@ body .container {
 .service-container {
   width: 100%;
   height: 580px;
-  background-color: lightblue;
+  background-color: #f5f5f5;
 }
 
 .service-container .container {
   width: 1300px;
   margin: auto;
   text-align: center;
-  color: white;
+  padding-top: 70px;
 }
 
 .service-container .container .s-main-h1 {
   margin-top: 20px;
+}
+
+.service-container .container .s-main-p {
+  margin: 0px;
 }
 
 .service-container .container .s-main-p span {
@@ -94,17 +98,80 @@ body .container {
   background-color: black;
 }
 
+.service-container .container .row:nth-child(4) {
+  width: 95%;
+  margin-top: 53px !important;
+  margin: auto;
+  color: #29323c;
+}
+
+.service-container .container .row:nth-child(4) .card-header {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.service-container .container .row:nth-child(4) .card1-img {
+  background-image: url("../../img/svz_1.png");
+  background-position: cover;
+}
+
+.service-container .container .row:nth-child(4) .card2-img {
+  background-image: url("../../img/svz_2.png");
+  background-position: cover;
+}
+
+.service-container .container .row:nth-child(4) .card3-img {
+  background-image: url("../../img/svz_3.png");
+  background-position: cover;
+}
+
+.service-container .container .row:nth-child(4) .card4-img {
+  background-image: url("../../img/svz_4.png");
+  background-position: cover;
+}
+
 .works-container {
   width: 100%;
   height: 827px;
-  background-color: indianred;
+  background-color: #ffffff;
 }
 
 .works-container .container {
   width: 1300px;
   margin: auto;
   text-align: center;
-  color: white;
+  padding-top: 70px;
+}
+
+.works-container .container .s-main-h1 {
+  margin-top: 20px;
+}
+
+.works-container .container .s-main-p {
+  margin: 0px;
+}
+
+.works-container .container .s-main-p span {
+  display: inline-block;
+  margin-top: -15px;
+  width: 41px;
+  height: 2px;
+  background-color: black;
+}
+
+.works-container .container .row:nth-child(4) {
+  width: 100%;
+  height: 500px;
+  background-color: red;
+}
+
+.works-container .container .row:nth-child(4) .col-md-2 {
+  max-width: 260px;
+  width: 254px;
+  height: 200px;
+  background-image: url("../../img/work_1.png");
 }
 
 .h-clients-container {
@@ -118,5 +185,22 @@ body .container {
   margin: auto;
   text-align: center;
   color: white;
+  padding-top: 70px;
+}
+
+.h-clients-container .container .s-main-h1 {
+  margin-top: 20px;
+}
+
+.h-clients-container .container .s-main-p {
+  margin: 0px;
+}
+
+.h-clients-container .container .s-main-p span {
+  display: inline-block;
+  margin-top: -15px;
+  width: 41px;
+  height: 2px;
+  background-color: black;
 }
 /*# sourceMappingURL=main.css.map */
