@@ -251,6 +251,7 @@ body {
                 color: #29323c;
                 height: 290px;
                 padding: 10px 45px 10px 45px;
+                border: none;
                 p{
                     text-align: center;
                 }
@@ -319,6 +320,7 @@ body {
         .card{
             color: black;
             height: 415px;
+            border: none;
         }
 
         .btn-fTeam {
@@ -344,7 +346,7 @@ body {
 
 .logo-container {
     width: 100%;
-    height: 140px;
+    height: 150px;
     background-color: #f5f5f5;
 
     .container{
@@ -352,35 +354,56 @@ body {
         margin: auto;
         text-align: center;
 
+        .col-md-12{
+            margin-top: 35px !important;
+            width: 90%;
+            margin: auto;
+        }
+
         .col-md-2{
             max-width: 260px;
             width: 20%;
-            height: 50px;
+            height: 80px;
             flex: none;
         }
-
         .logo-1{
-            background-image: url("../../img/coca-cola.png");
+            width: 200px;
+            height: 80px;
+            margin-left: 65px;
+            background-image: url("../../img/logo1.png");
             background-size: contain;
             background-repeat: no-repeat;
         }
         .logo-2{
-            background-image: url("../../img/dropbox.png");
+            width: 200px;
+            height: 80px;
+            margin-left: 40px;
+            background-image: url("../../img/logo2.png");
             background-size: contain;
             background-repeat: no-repeat;
         }
         .logo-3{
-            background-image: url("../../img/intel.png");
+            width: 200px;
+            height: 80px;
+            margin-left: 15px;
+            background-image: url("../../img/logo3.png");
             background-size: contain;
             background-repeat: no-repeat;
         }
         .logo-4{
-            background-image: url("../../img/zendesk.png");
+            width: 200px;
+            height: 80px;
+            margin-left: -12px;
+            margin-top: -5px;
+            background-image: url("../../img/logo4.png");
             background-size: contain;
             background-repeat: no-repeat;
         }
         .logo-5{
-            background-image: url("../../img/nokia.png");
+            width: 200px;
+            height: 80px;
+            margin-left: -38px;
+            background-image: url("../../img/logo5.png");
             background-size: contain;
             background-repeat: no-repeat;
         }
