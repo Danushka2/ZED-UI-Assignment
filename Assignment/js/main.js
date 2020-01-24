@@ -1,28 +1,32 @@
 setOverlayHeight();
+setSlider();
+setNavbarColor();
 
 
-$(document).on('ready', function () {
-  $(".regular").slick({
-    dots: true,
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1
+function setSlider() {
+  $(document).on('ready', function () {
+    $(".regular").slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
   });
-});
+}
 
-$(document).ready(function () {
-  $(window).scroll(function () {
-    var scroll = $(window).scrollTop();
-    if (scroll > 50) {
-      $("#nav").css("background", "#29323c");
-    }
-    else {
-      $("#nav").css("background", "transparent");
-    }
-  })
-})
-
-
+function setNavbarColor() {
+  $(document).ready(function () {
+    $(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+      if (scroll > 50) {
+        $("#nav").css("background", "#29323c");
+      }
+      else {
+        $("#nav").css("background", "transparent");
+      }
+    });
+  });
+}
 
 function setOverlayHeight() {
   bodyHeight = $(window).height();
