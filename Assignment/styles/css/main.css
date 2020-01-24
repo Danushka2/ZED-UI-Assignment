@@ -267,13 +267,12 @@ body .container {
 
 .h-clients-container .container .slider {
   margin-top: 40px;
-  background-color: red;
 }
 
 .h-clients-container .container .slider .card {
-  background-color: yellow;
   color: #29323c;
   height: 290px;
+  padding: 10px 45px 10px 45px;
 }
 
 .h-clients-container .container .slider .card p {
@@ -286,6 +285,20 @@ body .container {
   margin: auto;
   border-radius: 50%;
   background-image: url("../../img/s-dev.png");
+}
+
+.h-clients-container .container .slider .card .comma {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+
+.h-clients-container .container .slider .card h6 {
+  margin-top: 11px;
+}
+
+.h-clients-container .container .slider .card .job-title {
+  margin-top: -10px;
 }
 
 .team-container {

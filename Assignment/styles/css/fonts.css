@@ -107,3 +107,25 @@
     font-size: 14px;
     letter-spacing: 0.4px;
 }
+
+.h-clients-container .container .slider .card p{
+    font-family: OpenSans-Light;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+}
+
+.h-clients-container .container .slider .card .comma{
+    font-family: montserrat-bold;
+    font-size: 40px;
+}
+
+.h-clients-container .container .slider .card h6{
+    font-family: montserrat-bold;
+    font-size: 16px;
+    letter-spacing: -0.3px;
+}
+
+.h-clients-container .container .slider .card .job-title{
+    font-family: Montserrat-Regular;
+    font-size: 13px;
+}

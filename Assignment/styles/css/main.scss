@@ -247,11 +247,10 @@ body {
 
         .slider{
             margin-top: 40px;
-            background-color: red;
             .card{
-                background-color: yellow;
                 color: #29323c;
                 height: 290px;
+                padding: 10px 45px 10px 45px;
                 p{
                     text-align: center;
                 }
@@ -261,6 +260,18 @@ body {
                     margin: auto;
                     border-radius: 50%;
                     background-image: url("../../img/s-dev.png");
+                }
+
+                .comma{
+                    color: red;
+                    margin-top: -10px;
+                    margin-bottom: 0px;
+                }
+                h6{
+                    margin-top: 11px;
+                }
+                .job-title{
+                    margin-top: -10px;
                 }
             }
         }
