@@ -54,10 +54,14 @@
 }
 
 
-
 .navbar-brand{
     font-family: airbag-regular;
     font-size: 38px;
+    color: #fff !important;
+}
+
+.nav-item{
+    color: #fff !important;
 }
 
 .title{

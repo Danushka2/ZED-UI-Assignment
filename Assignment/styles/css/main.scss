@@ -159,14 +159,60 @@ body {
 
         .row:nth-child(4){
             width: 100%;
-            height: 500px;
-            background-color: red;
+            margin-top: 57px;
             .col-md-2{
                 max-width: 260px;
-                width: 254px;
+                width: 20%;
                 height: 200px;
+                flex: none;
+            }
+
+            .work-c-1{
                 background-image: url("../../img/work_1.png");
             }
+            .work-c-2{
+                background-image: url("../../img/work_2.png");
+            }
+            .work-c-3{
+                background-image: url("../../img/work_3.png");
+            }
+            .work-c-4{
+                background-image: url("../../img/work_4.png");
+            }
+            .work-c-5{
+                background-image: url("../../img/work_5.png");
+            }
+            .work-c-6{
+                background-image: url("../../img/work_6.png");
+            }
+            .work-c-7{
+                background-image: url("../../img/work_7.png");
+            }
+            .work-c-8{
+                background-image: url("../../img/work_8.png");
+            }
+            .work-c-9{
+                background-image: url("../../img/work_9.png");
+            }
+            .work-c-10{
+                background-image: url("../../img/work_10.png");
+            }
+            .work-c-11{
+                background-image: url("../../img/work_11.png");
+            }
+            .work-c-12{
+                background-image: url("../../img/work_12.png");
+            }
+            .work-c-13{
+                background-image: url("../../img/work_13.png");
+            }
+            .work-c-14{
+                background-image: url("../../img/work_14.png");
+            }
+            .work-c-15{
+                background-image: url("../../img/work_15.png");
+            }
+
         }
 
     }
@@ -175,14 +221,14 @@ body {
 .h-clients-container {
     width: 100%;
     height: 623px;
-    background-color: gray;
+    background-color: #fff;
 
     .container{
         width: 1300px;
         margin: auto;
         text-align: center;
         color: white;
-        padding-top: 70px;
+        padding-top: 72px;
 
         .s-main-h1{
             margin-top: 20px;
@@ -199,12 +245,61 @@ body {
             }
         }
 
+        .slider{
+            margin-top: 40px;
+            background-color: red;
+            .card{
+                background-color: yellow;
+                color: #29323c;
+                height: 290px;
+                p{
+                    text-align: center;
+                }
+                .s-dev-img{
+                    width: 65px;
+                    height: 65px;
+                    margin: auto;
+                    border-radius: 50%;
+                    background-image: url("../../img/s-dev.png");
+                }
+            }
+        }
+
     }
 }
 
 
+.team-container {
+    width: 100%;
+    height: 899px;
+    background-image: url("../../img/team-background.png");
+    background-size: cover;
 
+    .container{
+        width: 1300px;
+        margin: auto;
+        text-align: center;
+        color: white;
+        padding-top: 72px;
 
+        .s-main-h1{
+            margin-top: 20px;
+            color: white;
+        }
+
+        .s-main-p{
+            margin: 0px;
+            color: white;
+            span{
+                display: inline-block;
+                margin-top: -15px;
+                width: 41px;
+                height: 2px;
+                background-color: white;
+            }
+        }
+    }
+}
 
 
 
