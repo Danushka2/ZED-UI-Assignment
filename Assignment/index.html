@@ -17,27 +17,29 @@
 
 <body>
 
-    <header class="nav-container fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">ZET</a>
-            <button class="navbar-toggler" id="toggle-button" type="button" data-toggle="collapse"
-                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active nav-tagline" href="#">I'am your tag line<span
-                            class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Home</a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Works</a>
-                    <a class="nav-item nav-link" href="#">Team</a>
-                    <a class="nav-item nav-link" href="#">asdf</a>
-                </div>
+    <header class="nav-container fixed-top" id="nav">
+        <div class="pos-f-t">
+            <nav class="navbar px-0 py-0">
+                <a class="navbar-brand" href="#">ZET</a>
+                <button id="nav-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">Menu
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </div>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="p-4" id="bg-collapse">
+                <a class="nav-item nav-link" href="#">Home</a>
+                <a class="nav-item nav-link" href="#">Service</a>
+                <a class="nav-item nav-link" href="#">Work</a>
+                <a class="nav-item nav-link" href="#">Client</a>
+                <a class="nav-item nav-link" href="#">Team</a>
+                <a class="nav-item nav-link" href="#">Prices</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
             </div>
-        </nav>
+        </div>
+        <div id="overlay"></div>
     </header>
 
     <section class="header-container" id="headerId">
@@ -375,11 +377,21 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
-                        <div class="col-md-2"><div class="logos logo-1"></div></div>
-                        <div class="col-md-2"><div class="logos logo-2"></div></div>
-                        <div class="col-md-2"><div class="logos logo-3"></div></div>
-                        <div class="col-md-2"><div class="logos logo-4"></div></div>
-                        <div class="col-md-2"><div class="logos logo-5"></div></div>
+                        <div class="col-md-2">
+                            <div class="logos logo-1"></div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="logos logo-2"></div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="logos logo-3"></div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="logos logo-4"></div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="logos logo-5"></div>
+                        </div>
                     </div>
                 </div>
             </div>

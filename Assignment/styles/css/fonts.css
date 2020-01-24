@@ -56,12 +56,14 @@
 
 .navbar-brand {
     font-family: airbag-regular;
-    font-size: 38px;
-    color: #fff !important;
+    font-size: 52px;
+    color: #e8e8e8 !important;
 }
 
-.nav-item {
-    color: #fff !important;
+.navbar-toggler, .nav-item{
+    font-family: montserrat-bold;
+    font-size: 15px;
+    color: #e8e8e8;
 }
 
 .title {

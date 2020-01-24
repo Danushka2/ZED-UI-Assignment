@@ -15,7 +15,7 @@ body .container {
 
 .nav-container {
   width: 100%;
-  height: 70px;
+  height: 92px;
 }
 
 .nav-container .navbar {
@@ -26,14 +26,32 @@ body .container {
   top: 0;
 }
 
-.nav-container .navbar-light .navbar-toggler-icon {
-  background-image: url("../../img/mobile-menu.png") !important;
+.nav-container .navbar-toggler-icon {
+  width: 20px;
+  height: 17px;
+  margin-right: 50px;
+  margin-left: 18px;
+  background-image: url("../../img/nav_icon.png") !important;
 }
 
 .nav-container .navbar-brand {
-  margin-left: 54px;
+  margin-left: 70px;
   margin-top: 4px;
   margin-right: 31px;
+}
+
+.nav-container .nav-item {
+  text-align: center;
+}
+
+.nav-container #overlay {
+  width: 100%;
+  position: relative;
+  top: -410px;
+  background-color: black;
+  opacity: 0.8;
+  display: none;
+  z-index: -1;
 }
 
 .header-container {
@@ -270,7 +288,7 @@ body .container {
 }
 
 .h-clients-container .container .slider .card {
-  color: #29323c;
+  color: #2b3746;
   height: 290px;
   padding: 10px 45px 10px 45px;
   border: none;
@@ -289,7 +307,7 @@ body .container {
 }
 
 .h-clients-container .container .slider .card .comma {
-  color: red;
+  color: #2b3746;
   margin-top: -10px;
   margin-bottom: 0px;
 }
