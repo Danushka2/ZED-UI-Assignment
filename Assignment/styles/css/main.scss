@@ -309,14 +309,21 @@ body {
             }
         }
 
+        .row:nth-child(4){
+            width: 95%;
+            margin-top: 80px !important;
+            margin-bottom: 55px !important;
+            margin: auto;
+        }
+
         .card{
             color: black;
+            height: 415px;
         }
 
         .btn-fTeam {
-            width: 250px;
+            width: 200px;
             height: 40px;
-            color: #fff;
             margin-top: 39px;
             border: 1px solid #ffffff;
             border-radius: 50px;
@@ -324,7 +331,12 @@ body {
         
         .btn-fTeam:hover {
             background: #747474;
+            color: black;
             border: 1px solid #747474;
+        }
+
+        h4{
+            margin-top: -5px;
         }
 
     }

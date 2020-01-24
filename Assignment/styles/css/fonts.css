@@ -54,78 +54,98 @@
 }
 
 
-.navbar-brand{
+.navbar-brand {
     font-family: airbag-regular;
     font-size: 38px;
     color: #fff !important;
 }
 
-.nav-item{
+.nav-item {
     color: #fff !important;
 }
 
-.title{
+.title {
     font-family: montserrat-bold;
     font-size: 35px;
     letter-spacing: -1.4px;
 }
 
-.header-container p{
+.header-container p {
     font-family: OpenSans-Light;
     font-size: 17px;
     letter-spacing: -0.3px;
 }
 
-.header-container button{
+.header-container button {
     font-family: montserrat-bold;
     font-size: 12px;
     letter-spacing: 0.3px;
 }
 
-.s-main-h1{
+.s-main-h1 {
     font-family: OpenSans-ExtraBold;
     font-size: 26px;
     letter-spacing: -1px;
     color: #29323c;
 }
 
-.s-main-p{
+.s-main-p {
     font-family: OpenSans-Light;
     font-size: 14px;
     letter-spacing: 0.3px;
     color: #29323c;
 }
 
-.service-container .card-title{
+.service-container .card-title {
     font-family: montserrat-bold;
     font-size: 16px;
     letter-spacing: -0.5px;
 }
 
-.service-container .card-text{
+.service-container .card-text {
     font-family: OpenSans-Light;
     font-size: 14px;
     letter-spacing: 0.4px;
 }
 
-.h-clients-container .container .slider .card p{
+.h-clients-container .container .slider .card p {
     font-family: OpenSans-Light;
     font-size: 16px;
     letter-spacing: 0.3px;
 }
 
-.h-clients-container .container .slider .card .comma{
+.h-clients-container .container .slider .card .comma {
     font-family: montserrat-bold;
     font-size: 40px;
 }
 
-.h-clients-container .container .slider .card h6{
+.h-clients-container .container .slider .card h6 {
     font-family: montserrat-bold;
     font-size: 16px;
     letter-spacing: -0.3px;
 }
 
-.h-clients-container .container .slider .card .job-title{
+.h-clients-container .container .slider .card .job-title {
     font-family: Montserrat-Regular;
     font-size: 13px;
+}
+
+.team-container .container .card h2 {
+    font-family: montserrat-bold;
+    font-size: 15px;
+    line-height: 26px;
+    color: #29323c;
+}
+
+.team-container .container .card h4 {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #29323c;
+}
+
+.team-container .container .btn-fTeam {
+    font-family: montserrat-bold;
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #e8e8e8;
 }
