@@ -194,52 +194,106 @@ body {
                 width: 20%;
                 height: 200px;
                 flex: none;
+                div {
+                    width: 100%;
+                    height: 100%;
+                    background-color: #29323c;
+                    opacity: 0.9;
+                    display: none;
+                    padding-top: 20%;
+                    color: #ffffff;
+                }
             }
 
             .work-c-1{
                 background-image: url("../../img/work_1.png");
             }
+            .work-c-1:hover div {
+                display: block;
+            }
             .work-c-2{
                 background-image: url("../../img/work_2.png");
+            }
+            .work-c-2:hover div {
+                display: block;
             }
             .work-c-3{
                 background-image: url("../../img/work_3.png");
             }
+            .work-c-3:hover div {
+                display: block;
+            }
             .work-c-4{
                 background-image: url("../../img/work_4.png");
+            }
+            .work-c-4:hover div {
+                display: block;
             }
             .work-c-5{
                 background-image: url("../../img/work_5.png");
             }
+            .work-c-5:hover div {
+                display: block;
+            }
             .work-c-6{
                 background-image: url("../../img/work_6.png");
+            }
+            .work-c-6:hover div {
+                display: block;
             }
             .work-c-7{
                 background-image: url("../../img/work_7.png");
             }
+            .work-c-7:hover div {
+                display: block;
+            }
             .work-c-8{
                 background-image: url("../../img/work_8.png");
+            }
+            .work-c-8:hover div {
+                display: block;
             }
             .work-c-9{
                 background-image: url("../../img/work_9.png");
             }
+            .work-c-9:hover div {
+                display: block;
+            }
             .work-c-10{
                 background-image: url("../../img/work_10.png");
+            }
+            .work-c-10:hover div {
+                display: block;
             }
             .work-c-11{
                 background-image: url("../../img/work_11.png");
             }
+            .work-c-11:hover div {
+                display: block;
+            }
             .work-c-12{
                 background-image: url("../../img/work_12.png");
+            }
+            .work-c-12:hover div {
+                display: block;
             }
             .work-c-13{
                 background-image: url("../../img/work_13.png");
             }
+            .work-c-13:hover div {
+                display: block;
+            }
             .work-c-14{
                 background-image: url("../../img/work_14.png");
             }
+            .work-c-14:hover div {
+                display: block;
+            }
             .work-c-15{
                 background-image: url("../../img/work_15.png");
+            }
+            .work-c-15:hover div {
+                display: block;
             }
 
         }
