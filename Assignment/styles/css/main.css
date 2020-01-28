@@ -123,11 +123,20 @@ body .container {
   color: #29323c;
 }
 
+.service-container .container .row:nth-child(4) .card {
+  border: none;
+  background-color: #f5f5f5;
+}
+
 .service-container .container .row:nth-child(4) .card-header {
   width: 120px;
   height: 120px;
   margin: auto;
   border-radius: 50%;
+}
+
+.service-container .container .row:nth-child(4) .card-body {
+  margin-top: 15px;
 }
 
 .service-container .container .row:nth-child(4) .card1-img {
