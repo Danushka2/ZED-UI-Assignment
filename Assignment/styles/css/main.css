@@ -546,7 +546,7 @@ body .container {
   margin: auto;
   text-align: center;
   color: black;
-  padding-top: 80px;
+  padding-top: 75px;
 }
 
 .pricing-container .container .s-main-h1 {
@@ -565,6 +565,50 @@ body .container {
   width: 41px;
   height: 2px;
   background-color: black;
+}
+
+.pricing-container .container .row:nth-child(4) {
+  margin-top: 110px !important;
+  width: 90%;
+  margin: auto;
+}
+
+.pricing-container .container .row:nth-child(4) .card {
+  height: 500px;
+  border-radius: 0px;
+  background-color: #ffffff;
+}
+
+.pricing-container .container .row:nth-child(4) .card .card-header {
+  padding-top: 20px;
+  background-color: #ffffff;
+}
+
+.pricing-container .container .row:nth-child(4) .card .upper-cbody {
+  padding: 20px;
+  height: 260px;
+}
+
+.pricing-container .container .row:nth-child(4) .card .btn-price {
+  width: 125px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #485563;
+  color: #e8e8e8;
+}
+
+.pricing-container .container .row:nth-child(4) .card .btn-price:hover {
+  color: #ffffff;
+}
+
+.pricing-container .container .row:nth-child(4) .card .best-price {
+  padding-top: 60px;
+  margin-top: -40px;
+  margin-left: -1px;
+  margin-right: -1px;
+  height: 183.8px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 5px solid #29323c;
 }
 
 .contact-container {

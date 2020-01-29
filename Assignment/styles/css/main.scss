@@ -7,7 +7,8 @@ body {
     padding: 0;
     margin: 0;
     min-height: 100%;
-    .container{
+
+    .container {
         max-width: 1300px;
     }
 }
@@ -38,7 +39,7 @@ body {
         margin-right: 31px;
     }
 
-    .nav-item{
+    .nav-item {
         text-align: center;
     }
 
@@ -51,7 +52,7 @@ body {
         display: none;
         z-index: -1;
     }
-    
+
 
 }
 
@@ -61,14 +62,14 @@ body {
     background-image: url("../../img/main.png");
     background-size: cover;
 
-    .container{
+    .container {
         width: 1300px;
         margin: auto;
         text-align: center;
         color: white;
         padding-top: 262px;
 
-        h1{
+        h1 {
             margin-bottom: 27px;
         }
 
@@ -80,12 +81,12 @@ body {
             border: 1px solid #ffffff;
             border-radius: 50px;
         }
-        
+
         .btn-talk:hover {
             background: #747474;
             border: 1px solid #747474;
         }
-        
+
 
 
     }
@@ -96,19 +97,20 @@ body {
     height: 580px;
     background-color: #f5f5f5;
 
-    .container{
+    .container {
         width: 1300px;
         margin: auto;
         text-align: center;
         padding-top: 70px;
 
-        .s-main-h1{
+        .s-main-h1 {
             margin-top: 20px;
         }
 
-        .s-main-p{
+        .s-main-p {
             margin: 0px;
-            span{
+
+            span {
                 display: inline-block;
                 margin-top: -15px;
                 width: 41px;
@@ -117,41 +119,44 @@ body {
             }
         }
 
-        .row:nth-child(4){
+        .row:nth-child(4) {
             width: 95%;
             margin-top: 53px !important;
             margin: auto;
             color: #29323c;
 
-            .card{
+            .card {
                 border: none;
                 background-color: #f5f5f5;
             }
 
-            .card-header{
+            .card-header {
                 width: 120px;
                 height: 120px;
                 margin: auto;
                 border-radius: 50%;
             }
 
-            .card-body{
+            .card-body {
                 margin-top: 15px;
             }
 
-            .card1-img{
+            .card1-img {
                 background-image: url("../../img/svz_1.png");
                 background-position: cover;
             }
-            .card2-img{
+
+            .card2-img {
                 background-image: url("../../img/svz_2.png");
                 background-position: cover;
             }
-            .card3-img{
+
+            .card3-img {
                 background-image: url("../../img/svz_3.png");
                 background-position: cover;
             }
-            .card4-img{
+
+            .card4-img {
                 background-image: url("../../img/svz_4.png");
                 background-position: cover;
             }
@@ -165,19 +170,20 @@ body {
     height: 827px;
     background-color: #ffffff;
 
-    .container{
+    .container {
         width: 1300px;
         margin: auto;
         text-align: center;
         padding-top: 70px;
 
-        .s-main-h1{
+        .s-main-h1 {
             margin-top: 20px;
         }
 
-        .s-main-p{
+        .s-main-p {
             margin: 0px;
-            span{
+
+            span {
                 display: inline-block;
                 margin-top: -15px;
                 width: 41px;
@@ -186,14 +192,16 @@ body {
             }
         }
 
-        .row:nth-child(4){
+        .row:nth-child(4) {
             width: 100%;
             margin-top: 57px;
-            .col-md-2{
+
+            .col-md-2 {
                 max-width: 260px;
                 width: 20%;
                 height: 200px;
                 flex: none;
+
                 div {
                     width: 100%;
                     height: 100%;
@@ -205,93 +213,122 @@ body {
                 }
             }
 
-            .work-c-1{
+            .work-c-1 {
                 background-image: url("../../img/work_1.png");
             }
+
             .work-c-1:hover div {
                 display: block;
             }
-            .work-c-2{
+
+            .work-c-2 {
                 background-image: url("../../img/work_2.png");
             }
+
             .work-c-2:hover div {
                 display: block;
             }
-            .work-c-3{
+
+            .work-c-3 {
                 background-image: url("../../img/work_3.png");
             }
+
             .work-c-3:hover div {
                 display: block;
             }
-            .work-c-4{
+
+            .work-c-4 {
                 background-image: url("../../img/work_4.png");
             }
+
             .work-c-4:hover div {
                 display: block;
             }
-            .work-c-5{
+
+            .work-c-5 {
                 background-image: url("../../img/work_5.png");
             }
+
             .work-c-5:hover div {
                 display: block;
             }
-            .work-c-6{
+
+            .work-c-6 {
                 background-image: url("../../img/work_6.png");
             }
+
             .work-c-6:hover div {
                 display: block;
             }
-            .work-c-7{
+
+            .work-c-7 {
                 background-image: url("../../img/work_7.png");
             }
+
             .work-c-7:hover div {
                 display: block;
             }
-            .work-c-8{
+
+            .work-c-8 {
                 background-image: url("../../img/work_8.png");
             }
+
             .work-c-8:hover div {
                 display: block;
             }
-            .work-c-9{
+
+            .work-c-9 {
                 background-image: url("../../img/work_9.png");
             }
+
             .work-c-9:hover div {
                 display: block;
             }
-            .work-c-10{
+
+            .work-c-10 {
                 background-image: url("../../img/work_10.png");
             }
+
             .work-c-10:hover div {
                 display: block;
             }
-            .work-c-11{
+
+            .work-c-11 {
                 background-image: url("../../img/work_11.png");
             }
+
             .work-c-11:hover div {
                 display: block;
             }
-            .work-c-12{
+
+            .work-c-12 {
                 background-image: url("../../img/work_12.png");
             }
+
             .work-c-12:hover div {
                 display: block;
             }
-            .work-c-13{
+
+            .work-c-13 {
                 background-image: url("../../img/work_13.png");
             }
+
             .work-c-13:hover div {
                 display: block;
             }
-            .work-c-14{
+
+            .work-c-14 {
                 background-image: url("../../img/work_14.png");
             }
+
             .work-c-14:hover div {
                 display: block;
             }
-            .work-c-15{
+
+            .work-c-15 {
                 background-image: url("../../img/work_15.png");
             }
+
             .work-c-15:hover div {
                 display: block;
             }
@@ -306,20 +343,21 @@ body {
     height: 623px;
     background-color: #fff;
 
-    .container{
+    .container {
         width: 1300px;
         margin: auto;
         text-align: center;
         color: white;
         padding-top: 72px;
 
-        .s-main-h1{
+        .s-main-h1 {
             margin-top: 20px;
         }
 
-        .s-main-p{
+        .s-main-p {
             margin: 0px;
-            span{
+
+            span {
                 display: inline-block;
                 margin-top: -15px;
                 width: 41px;
@@ -328,17 +366,20 @@ body {
             }
         }
 
-        .slider{
+        .slider {
             margin-top: 40px;
-            .card{
+
+            .card {
                 color: #2b3746;
                 height: 290px;
                 padding: 10px 45px 10px 45px;
                 border: none;
-                p{
+
+                p {
                     text-align: center;
                 }
-                .s-dev-img{
+
+                .s-dev-img {
                     width: 65px;
                     height: 65px;
                     margin: auto;
@@ -346,15 +387,17 @@ body {
                     background-image: url("../../img/s-dev.png");
                 }
 
-                .comma{
+                .comma {
                     color: #2b3746;
                     margin-top: -10px;
                     margin-bottom: 0px;
                 }
-                h6{
+
+                h6 {
                     margin-top: 11px;
                 }
-                .job-title{
+
+                .job-title {
                     margin-top: -10px;
                 }
             }
@@ -369,22 +412,23 @@ body {
     background-image: url("../../img/team-background.png");
     background-size: cover;
 
-    .container{
+    .container {
         width: 1300px;
         margin: auto;
         text-align: center;
         color: white;
         padding-top: 72px;
 
-        .s-main-h1{
+        .s-main-h1 {
             margin-top: 20px;
             color: white;
         }
 
-        .s-main-p{
+        .s-main-p {
             margin: 0px;
             color: white;
-            span{
+
+            span {
                 display: inline-block;
                 margin-top: -15px;
                 width: 41px;
@@ -393,14 +437,14 @@ body {
             }
         }
 
-        .row:nth-child(4){
+        .row:nth-child(4) {
             width: 95%;
             margin-top: 80px !important;
             margin-bottom: 55px !important;
             margin: auto;
         }
 
-        .card{
+        .card {
             color: black;
             height: 415px;
             border: none;
@@ -413,14 +457,14 @@ body {
             border: 1px solid #ffffff;
             border-radius: 50px;
         }
-        
+
         .btn-fTeam:hover {
             background: #747474;
             color: black;
             border: 1px solid #747474;
         }
 
-        h4{
+        h4 {
             margin-top: -5px;
         }
 
@@ -432,24 +476,25 @@ body {
     height: 150px;
     background-color: #f5f5f5;
 
-    .container{
+    .container {
         width: 1300px;
         margin: auto;
         text-align: center;
 
-        .col-md-12{
+        .col-md-12 {
             margin-top: 35px !important;
             width: 90%;
             margin: auto;
         }
 
-        .col-md-2{
+        .col-md-2 {
             max-width: 260px;
             width: 20%;
             height: 80px;
             flex: none;
         }
-        .logo-1{
+
+        .logo-1 {
             width: 200px;
             height: 80px;
             margin-left: 65px;
@@ -457,7 +502,8 @@ body {
             background-size: contain;
             background-repeat: no-repeat;
         }
-        .logo-2{
+
+        .logo-2 {
             width: 200px;
             height: 80px;
             margin-left: 40px;
@@ -465,7 +511,8 @@ body {
             background-size: contain;
             background-repeat: no-repeat;
         }
-        .logo-3{
+
+        .logo-3 {
             width: 200px;
             height: 80px;
             margin-left: 15px;
@@ -473,7 +520,8 @@ body {
             background-size: contain;
             background-repeat: no-repeat;
         }
-        .logo-4{
+
+        .logo-4 {
             width: 200px;
             height: 80px;
             margin-left: -12px;
@@ -482,7 +530,8 @@ body {
             background-size: contain;
             background-repeat: no-repeat;
         }
-        .logo-5{
+
+        .logo-5 {
             width: 200px;
             height: 80px;
             margin-left: -38px;
@@ -497,27 +546,72 @@ body {
     width: 100%;
     height: 913px;
 
-    .container{
+    .container {
         width: 1300px;
         margin: auto;
         text-align: center;
         color: black;
-        padding-top: 80px;
+        padding-top: 75px;
 
-        .s-main-h1{
+        .s-main-h1 {
             margin-top: 20px;
             color: black;
         }
 
-        .s-main-p{
+        .s-main-p {
             margin: 0px;
             color: black;
-            span{
+
+            span {
                 display: inline-block;
                 margin-top: -15px;
                 width: 41px;
                 height: 2px;
                 background-color: black;
+            }
+        }
+
+        .row:nth-child(4) {
+            margin-top: 110px !important;
+            width: 90%;
+            margin: auto;
+
+            .card {
+                height: 500px;
+                border-radius: 0px;
+                background-color: #ffffff;
+
+                .card-header {
+                    padding-top: 20px;
+                    background-color: #ffffff;
+                }
+
+                .upper-cbody {
+                    padding: 20px;
+                    height: 260px;
+                }
+
+                .btn-price {
+                    width: 125px;
+                    height: 40px;
+                    border-radius: 20px;
+                    background-color: #485563;
+                    color: #e8e8e8;
+                }
+
+                .btn-price:hover {
+                    color: #ffffff;
+                }
+
+                .best-price {
+                    padding-top: 60px;
+                    margin-top: -40px;
+                    margin-left: -1px;
+                    margin-right: -1px;
+                    height: 183.8px;
+                    border: 1px solid rgba(0,0,0,.125);
+                    border-top: 5px solid #29323c;
+                }
             }
         }
     }
@@ -527,16 +621,17 @@ body {
     width: 100%;
     height: 650px;
 
-    .container{
+    .container {
         width: 1300px;
         height: 100%;
         margin: auto;
 
-        .col-md-6{
+        .col-md-6 {
             width: 100%;
             height: 650px;
         }
-        .form-contact{
+
+        .form-contact {
             background-image: url("../../img/form-background.png");
         }
     }
@@ -547,12 +642,12 @@ body {
     height: 127px;
     background-color: #f5f5f5;
 
-    .container{
+    .container {
         width: 1300px;
         height: 100%;
         margin: auto;
 
-        .col-md-6{
+        .col-md-6 {
             width: 100%;
             height: 100px;
         }
