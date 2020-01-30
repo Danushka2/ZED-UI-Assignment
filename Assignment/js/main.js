@@ -8,6 +8,10 @@ function setSlider() {
     $(".regular").slick({
       dots: true,
       infinite: true,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      delay: 5000,
+      speed: 700,
       slidesToShow: 1,
       slidesToScroll: 1
     });
