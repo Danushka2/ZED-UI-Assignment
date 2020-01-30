@@ -629,6 +629,32 @@ body .container {
 
 .contact-container .container .form-contact {
   background-image: url("../../img/form-background.png");
+  padding: 100px;
+  color: #e8e8e8;
+}
+
+.contact-container .container .form-contact .col-sm-5 {
+  padding-top: 10px;
+}
+
+.contact-container .container .form-contact .form-control {
+  background-color: transparent;
+  height: 48px;
+}
+
+.contact-container .container .form-contact textarea {
+  height: 150px !important;
+}
+
+.contact-container .container .form-contact .row {
+  margin-bottom: 20px;
+}
+
+.contact-container .container .form-contact .btn {
+  width: 120px;
+  border: 1px solid #e8e8e8;
+  color: #e8e8e8;
+  margin-right: 50px;
 }
 
 .footer-container {
@@ -641,6 +667,21 @@ body .container {
   width: 1300px;
   height: 100%;
   margin: auto;
+  padding-top: 30px;
+}
+
+.footer-container .container h1 {
+  margin-left: 70px;
+  margin-top: -8px;
+}
+
+.footer-container .container .f-copyright {
+  margin-top: 10px;
+}
+
+.footer-container .container p {
+  text-align: right;
+  padding-top: 10px;
 }
 
 .footer-container .container .col-md-6 {

@@ -183,3 +183,22 @@
     font-size: 13px;
     line-height: 20px;
 }
+
+.contact-container .container .form-contact {
+    font-family: montserrat-bold;
+    font-size: 14px;
+    text-align: right;
+}
+
+.footer-container .container h1 {
+    font-family: airbag-regular;
+    font-size: 52px;
+    color: #29323c;
+}
+
+.footer-container .container .f-copyright, .footer-container .container p{
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    color: #29323c;
+}
+
