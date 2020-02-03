@@ -720,10 +720,16 @@ body {
 
 @media screen and (max-width: 1300px) {
 
-    .nav-container .navbar, .header-container .container, .service-container .container, 
-    .works-container .container, .h-clients-container .container, .team-container .container,
-    .logo-container .container, .pricing-container .container, .contact-container .container, 
-    .footer-container .container{
+    .nav-container .navbar,
+    .header-container .container,
+    .service-container .container,
+    .works-container .container,
+    .h-clients-container .container,
+    .team-container .container,
+    .logo-container .container,
+    .pricing-container .container,
+    .contact-container .container,
+    .footer-container .container {
         width: 100%;
     }
 
@@ -816,11 +822,13 @@ body {
     .service-container {
         height: max-content;
         padding-bottom: 20px;
+
         .container {
             .col-md-3 {
                 flex: 0 0 50% !important;
                 max-width: 50% !important;
             }
+
             .card {
                 width: 16rem !important;
                 margin: auto;
@@ -832,6 +840,7 @@ body {
         .container {
             .slider {
                 margin-top: 30px;
+
                 .card {
                     color: #2b3746;
                     height: max-content;
@@ -846,6 +855,7 @@ body {
                 flex: 0 0 50% !important;
                 max-width: 50% !important;
             }
+
             .card {
                 width: 16rem !important;
                 margin-bottom: 15px !important;
@@ -856,11 +866,13 @@ body {
 
     .logo-container {
         height: max-content;
+
         .container {
             .col-md-2 {
                 flex: 0 0 30% !important;
                 max-width: 30% !important;
             }
+
             .logo-1 {
                 margin-left: 30px;
             }
@@ -887,12 +899,14 @@ body {
     .pricing-container {
         height: max-content;
         padding-bottom: 20px;
+
         .container {
             .row:nth-child(4) {
                 width: 100%;
+
                 .card {
                     height: max-content;
-    
+
                     .upper-cbody {
                         height: 400px;
                     }
@@ -904,15 +918,16 @@ body {
             }
         }
     }
-    
+
     .footer-container {
         height: max-content;
+
         .container {
             h1 {
                 margin-left: 10px;
                 margin-top: 0px;
             }
-    
+
             .f-copyright {
                 margin-top: 10px;
             }
@@ -920,13 +935,26 @@ body {
             .col-md-6 {
                 height: 80px;
             }
-    
+
         }
     }
 
 }
 
 @media screen and (max-width: 425px) {
+
+    .nav-container {
+        .navbar-toggler-icon {
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        .navbar-brand {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+    }
 
     .service-container {
         .container {
@@ -939,14 +967,15 @@ body {
 
     .works-container {
         height: max-content;
+
         .container {
             .row:nth-child(4) {
                 .col-md-2 {
                     width: 50%;
                 }
-    
+
             }
-    
+
         }
     }
 
@@ -969,6 +998,7 @@ body {
                 flex: 0 0 50% !important;
                 max-width: 50% !important;
             }
+
             .logo-1 {
                 margin-left: -10px;
             }
@@ -997,6 +1027,7 @@ body {
                 .card {
                     height: max-content;
                     margin-bottom: 5px;
+
                     .upper-cbody {
                         height: max-content;
                     }
@@ -1014,12 +1045,12 @@ body {
 
     .contact-container {
         height: max-content;
-    
+
         .container {
             .col-md-6 {
                 height: 550px;
             }
-    
+
             .form-contact {
                 padding: 20px;
                 text-align: left;
@@ -1029,18 +1060,18 @@ body {
                     padding-top: 0px;
                 }
 
-                .col-sm-6{
+                .col-sm-6 {
                     margin-left: 15px;
                 }
 
-                .btn{
+                .btn {
                     margin-left: 10%;
                 }
-                
+
                 .form-control {
                     height: 40px;
                 }
-    
+
                 textarea {
                     height: 100px !important;
                 }
@@ -1050,9 +1081,12 @@ body {
 
     .footer-container {
         height: max-content;
+
         .container {
             height: max-content;
-            .col-sm-3, .col-sm-7{
+
+            .col-sm-3,
+            .col-sm-7 {
                 width: 50%;
             }
 
@@ -1060,14 +1094,42 @@ body {
                 margin-left: 70px;
                 margin-top: 8px;
             }
-    
+
         }
     }
 
 }
 
 @media screen and (max-width: 375px) {
+
+    .logo-container {
+        .container {
+            .logo-1 {
+                margin-left: -30px;
+            }
+
+            .logo-2 {
+                margin-left: -30px;
+            }
+
+            .logo-3 {
+                margin-left: -40px;
+            }
+
+            .logo-4 {
+                margin-left: -40px;
+            }
+
+            .logo-5 {
+                margin-left: 40%;
+            }
+        }
+    }
+
 }
 
 @media screen and (max-width: 320px) {
+    .logo-container {
+        display: none;
+    }
 }

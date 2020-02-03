@@ -709,9 +709,15 @@ body .container {
 }
 
 @media screen and (max-width: 1300px) {
-  .nav-container .navbar, .header-container .container, .service-container .container,
-  .works-container .container, .h-clients-container .container, .team-container .container,
-  .logo-container .container, .pricing-container .container, .contact-container .container,
+  .nav-container .navbar,
+  .header-container .container,
+  .service-container .container,
+  .works-container .container,
+  .h-clients-container .container,
+  .team-container .container,
+  .logo-container .container,
+  .pricing-container .container,
+  .contact-container .container,
   .footer-container .container {
     width: 100%;
   }
@@ -870,6 +876,14 @@ body .container {
 }
 
 @media screen and (max-width: 425px) {
+  .nav-container .navbar-toggler-icon {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .nav-container .navbar-brand {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
   .service-container .container .col-md-3 {
     -webkit-box-flex: 0 !important;
         -ms-flex: 0 0 100% !important;
@@ -970,12 +984,37 @@ body .container {
     height: -moz-max-content;
     height: max-content;
   }
-  .footer-container .container .col-sm-3, .footer-container .container .col-sm-7 {
+  .footer-container .container .col-sm-3,
+  .footer-container .container .col-sm-7 {
     width: 50%;
   }
   .footer-container .container h1 {
     margin-left: 70px;
     margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .logo-container .container .logo-1 {
+    margin-left: -30px;
+  }
+  .logo-container .container .logo-2 {
+    margin-left: -30px;
+  }
+  .logo-container .container .logo-3 {
+    margin-left: -40px;
+  }
+  .logo-container .container .logo-4 {
+    margin-left: -40px;
+  }
+  .logo-container .container .logo-5 {
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo-container {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
