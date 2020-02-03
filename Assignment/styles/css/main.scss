@@ -927,6 +927,143 @@ body {
 }
 
 @media screen and (max-width: 425px) {
+
+    .service-container {
+        .container {
+            .col-md-3 {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+            }
+        }
+    }
+
+    .works-container {
+        height: max-content;
+        .container {
+            .row:nth-child(4) {
+                .col-md-2 {
+                    width: 50%;
+                }
+    
+            }
+    
+        }
+    }
+
+    .h-clients-container {
+        height: max-content;
+    }
+
+    .team-container {
+        .container {
+            .col-md-3 {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+            }
+        }
+    }
+
+    .logo-container {
+        .container {
+            .col-md-2 {
+                flex: 0 0 50% !important;
+                max-width: 50% !important;
+            }
+            .logo-1 {
+                margin-left: -10px;
+            }
+
+            .logo-2 {
+                margin-left: -10px;
+            }
+
+            .logo-3 {
+                margin-left: -20px;
+            }
+
+            .logo-4 {
+                margin-left: -8%;
+            }
+
+            .logo-5 {
+                margin-left: 50%;
+            }
+        }
+    }
+
+    .pricing-container {
+        .container {
+            .row:nth-child(4) {
+                .card {
+                    height: max-content;
+                    margin-bottom: 5px;
+                    .upper-cbody {
+                        height: max-content;
+                    }
+
+                    .best-price {
+                        padding-top: 10px;
+                        margin-top: 0px;
+                        height: 140px;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .contact-container {
+        height: max-content;
+    
+        .container {
+            .col-md-6 {
+                height: 550px;
+            }
+    
+            .form-contact {
+                padding: 20px;
+                text-align: left;
+
+                .col-sm-5 {
+                    margin-left: 25px;
+                    padding-top: 0px;
+                }
+
+                .col-sm-6{
+                    margin-left: 15px;
+                }
+
+                .btn{
+                    margin-left: 10%;
+                }
+                
+                .form-control {
+                    height: 40px;
+                }
+    
+                textarea {
+                    height: 100px !important;
+                }
+            }
+        }
+    }
+
+    .footer-container {
+        height: max-content;
+        .container {
+            height: max-content;
+            .col-sm-3, .col-sm-7{
+                width: 50%;
+            }
+
+            h1 {
+                margin-left: 70px;
+                margin-top: 8px;
+            }
+    
+        }
+    }
+
 }
 
 @media screen and (max-width: 375px) {

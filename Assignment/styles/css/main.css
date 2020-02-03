@@ -868,4 +868,114 @@ body .container {
     height: 80px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .service-container .container .col-md-3 {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  .works-container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .works-container .container .row:nth-child(4) .col-md-2 {
+    width: 50%;
+  }
+  .h-clients-container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .team-container .container .col-md-3 {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  .logo-container .container .col-md-2 {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 50% !important;
+            flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+  .logo-container .container .logo-1 {
+    margin-left: -10px;
+  }
+  .logo-container .container .logo-2 {
+    margin-left: -10px;
+  }
+  .logo-container .container .logo-3 {
+    margin-left: -20px;
+  }
+  .logo-container .container .logo-4 {
+    margin-left: -8%;
+  }
+  .logo-container .container .logo-5 {
+    margin-left: 50%;
+  }
+  .pricing-container .container .row:nth-child(4) .card {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-bottom: 5px;
+  }
+  .pricing-container .container .row:nth-child(4) .card .upper-cbody {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .pricing-container .container .row:nth-child(4) .card .best-price {
+    padding-top: 10px;
+    margin-top: 0px;
+    height: 140px;
+  }
+  .contact-container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .contact-container .container .col-md-6 {
+    height: 550px;
+  }
+  .contact-container .container .form-contact {
+    padding: 20px;
+    text-align: left;
+  }
+  .contact-container .container .form-contact .col-sm-5 {
+    margin-left: 25px;
+    padding-top: 0px;
+  }
+  .contact-container .container .form-contact .col-sm-6 {
+    margin-left: 15px;
+  }
+  .contact-container .container .form-contact .btn {
+    margin-left: 10%;
+  }
+  .contact-container .container .form-contact .form-control {
+    height: 40px;
+  }
+  .contact-container .container .form-contact textarea {
+    height: 100px !important;
+  }
+  .footer-container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .footer-container .container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .footer-container .container .col-sm-3, .footer-container .container .col-sm-7 {
+    width: 50%;
+  }
+  .footer-container .container h1 {
+    margin-left: 70px;
+    margin-top: 8px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
