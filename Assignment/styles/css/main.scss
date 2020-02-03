@@ -88,7 +88,9 @@ body {
         }
 
         .row:nth-child(4){
-            margin-top: 20vh;
+            position: absolute;
+            top: 90vh;
+            left: calc(50% - 20px);
         }
 
         .arrow{
@@ -138,6 +140,7 @@ body {
             color: #29323c;
 
             .card {
+                width: 18rem;
                 border: none;
                 background-color: #f5f5f5;
             }
@@ -380,6 +383,10 @@ body {
 
         .slider {
             margin-top: 40px;
+
+            .slick-next{
+                display: none !important;
+            }
 
             .card {
                 color: #2b3746;
@@ -705,4 +712,116 @@ body {
         }
 
     }
+}
+
+
+//----------media queries--------------
+
+@media screen and (max-width: 1300px) {
+
+    .nav-container {
+        .navbar {
+            width: 100%;
+        }
+    }
+
+    .header-container {
+        .container {
+            width: 100%;
+        }
+    }    
+
+    .service-container {
+        .container {
+            width: 100%;
+            .card {
+                width: 16rem !important;
+            }
+        }
+    }
+
+    .works-container {
+        .container {
+            width: 100%;
+            .row:nth-child(4) {
+                margin-left: 0px;
+                margin-right: 0px;
+            }    
+        }
+    }    
+
+    .h-clients-container {
+        .container {
+            width: 100%;
+        }
+    }
+    
+    .team-container {
+        height: max-content;
+        padding-bottom: 50px;
+        .container {
+            width: 100%;
+            .card {
+                height: max-content;
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    .logo-container {
+        .container {
+            width: 100%;
+            .logo-1 {
+                margin-left: 20px;
+            }
+    
+            .logo-2 {
+                margin-left: 30px;
+            }
+    
+            .logo-3 {
+                margin-left: 5px;
+            }
+    
+            .logo-4 {
+                margin-left: -15px;
+                margin-top: -5px;
+            }
+    
+            .logo-5 {
+                margin-left: -30px;
+            }
+        }
+    }
+
+    .pricing-container {
+        .container {
+            width: 100%;
+        }
+    }
+
+    .contact-container {
+        .container {
+            width: 100%;
+            .form-group{
+                width: 100% !important;
+            }
+        }
+    }
+
+    .footer-container {
+        .container {
+            width: 100%;
+            .col-md-6{
+                .row{
+                    width: 100%;
+                    .col-sm-4, .col-sm-8 {
+                        flex: 0 0 50%;
+                        max-width: 50%;
+                    }
+                }
+            }
+        }
+    }
+
 }

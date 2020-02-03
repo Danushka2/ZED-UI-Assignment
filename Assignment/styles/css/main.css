@@ -88,7 +88,9 @@ body .container {
 }
 
 .header-container .container .row:nth-child(4) {
-  margin-top: 20vh;
+  position: absolute;
+  top: 90vh;
+  left: calc(50% - 20px);
 }
 
 .header-container .container .arrow {
@@ -137,6 +139,7 @@ body .container {
 }
 
 .service-container .container .row:nth-child(4) .card {
+  width: 18rem;
   border: none;
   background-color: #f5f5f5;
 }
@@ -377,6 +380,10 @@ body .container {
 
 .h-clients-container .container .slider {
   margin-top: 40px;
+}
+
+.h-clients-container .container .slider .slick-next {
+  display: none !important;
 }
 
 .h-clients-container .container .slider .card {
@@ -699,5 +706,85 @@ body .container {
 .footer-container .container .col-md-6 {
   width: 100%;
   height: 100px;
+}
+
+@media screen and (max-width: 1300px) {
+  .nav-container .navbar {
+    width: 100%;
+  }
+  .header-container .container {
+    width: 100%;
+  }
+  .service-container .container {
+    width: 100%;
+  }
+  .service-container .container .card {
+    width: 16rem !important;
+  }
+  .works-container .container {
+    width: 100%;
+  }
+  .works-container .container .row:nth-child(4) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .h-clients-container .container {
+    width: 100%;
+  }
+  .team-container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    padding-bottom: 50px;
+  }
+  .team-container .container {
+    width: 100%;
+  }
+  .team-container .container .card {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    padding-bottom: 20px;
+  }
+  .logo-container .container {
+    width: 100%;
+  }
+  .logo-container .container .logo-1 {
+    margin-left: 20px;
+  }
+  .logo-container .container .logo-2 {
+    margin-left: 30px;
+  }
+  .logo-container .container .logo-3 {
+    margin-left: 5px;
+  }
+  .logo-container .container .logo-4 {
+    margin-left: -15px;
+    margin-top: -5px;
+  }
+  .logo-container .container .logo-5 {
+    margin-left: -30px;
+  }
+  .pricing-container .container {
+    width: 100%;
+  }
+  .contact-container .container {
+    width: 100%;
+  }
+  .contact-container .container .form-group {
+    width: 100% !important;
+  }
+  .footer-container .container {
+    width: 100%;
+  }
+  .footer-container .container .col-md-6 .row {
+    width: 100%;
+  }
+  .footer-container .container .col-md-6 .row .col-sm-4, .footer-container .container .col-md-6 .row .col-sm-8 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
