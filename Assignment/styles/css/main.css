@@ -709,27 +709,21 @@ body .container {
 }
 
 @media screen and (max-width: 1300px) {
-  .nav-container .navbar {
+  .nav-container .navbar, .header-container .container, .service-container .container,
+  .works-container .container, .h-clients-container .container, .team-container .container,
+  .logo-container .container, .pricing-container .container, .contact-container .container,
+  .footer-container .container {
     width: 100%;
   }
-  .header-container .container {
-    width: 100%;
-  }
-  .service-container .container {
-    width: 100%;
-  }
+}
+
+@media screen and (max-width: 1024px) {
   .service-container .container .card {
     width: 16rem !important;
-  }
-  .works-container .container {
-    width: 100%;
   }
   .works-container .container .row:nth-child(4) {
     margin-left: 0px;
     margin-right: 0px;
-  }
-  .h-clients-container .container {
-    width: 100%;
   }
   .team-container {
     height: -webkit-max-content;
@@ -737,17 +731,11 @@ body .container {
     height: max-content;
     padding-bottom: 50px;
   }
-  .team-container .container {
-    width: 100%;
-  }
   .team-container .container .card {
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
     padding-bottom: 20px;
-  }
-  .logo-container .container {
-    width: 100%;
   }
   .logo-container .container .logo-1 {
     margin-left: 20px;
@@ -765,26 +753,119 @@ body .container {
   .logo-container .container .logo-5 {
     margin-left: -30px;
   }
-  .pricing-container .container {
-    width: 100%;
-  }
-  .contact-container .container {
-    width: 100%;
-  }
   .contact-container .container .form-group {
     width: 100% !important;
-  }
-  .footer-container .container {
-    width: 100%;
   }
   .footer-container .container .col-md-6 .row {
     width: 100%;
   }
-  .footer-container .container .col-md-6 .row .col-sm-4, .footer-container .container .col-md-6 .row .col-sm-8 {
+  .footer-container .container .col-md-6 .row .col-sm-4,
+  .footer-container .container .col-md-6 .row .col-sm-8 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
     max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service-container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    padding-bottom: 20px;
+  }
+  .service-container .container .col-md-3 {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 50% !important;
+            flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+  .service-container .container .card {
+    width: 16rem !important;
+    margin: auto;
+  }
+  .h-clients-container .container .slider {
+    margin-top: 30px;
+  }
+  .h-clients-container .container .slider .card {
+    color: #2b3746;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .team-container .container .col-md-3 {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 50% !important;
+            flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+  .team-container .container .card {
+    width: 16rem !important;
+    margin-bottom: 15px !important;
+    margin: auto;
+  }
+  .logo-container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .logo-container .container .col-md-2 {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 30% !important;
+            flex: 0 0 30% !important;
+    max-width: 30% !important;
+  }
+  .logo-container .container .logo-1 {
+    margin-left: 30px;
+  }
+  .logo-container .container .logo-2 {
+    margin-left: 40px;
+  }
+  .logo-container .container .logo-3 {
+    margin-left: 15px;
+  }
+  .logo-container .container .logo-4 {
+    margin-left: 40%;
+    margin-top: 0px;
+  }
+  .logo-container .container .logo-5 {
+    margin-left: 50%;
+  }
+  .pricing-container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    padding-bottom: 20px;
+  }
+  .pricing-container .container .row:nth-child(4) {
+    width: 100%;
+  }
+  .pricing-container .container .row:nth-child(4) .card {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .pricing-container .container .row:nth-child(4) .card .upper-cbody {
+    height: 400px;
+  }
+  .pricing-container .container .row:nth-child(4) .card .best-price {
+    height: 190px;
+  }
+  .footer-container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .footer-container .container h1 {
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+  .footer-container .container .f-copyright {
+    margin-top: 10px;
+  }
+  .footer-container .container .col-md-6 {
+    height: 80px;
   }
 }
 /*# sourceMappingURL=main.css.map */
